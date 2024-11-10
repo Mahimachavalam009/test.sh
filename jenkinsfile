@@ -4,7 +4,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 // Clone the repository
-                git 'https://github.com/your-username/hello-world'
+                git 'https://github.com/Mahimachavalam009/test.sh'
             }
         }
         stage('Build') {
